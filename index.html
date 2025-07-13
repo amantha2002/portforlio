@@ -15,6 +15,13 @@
         <link rel="stylesheet" href="portfolio.css">
         <link rel="stylesheet" href="contact.css">
         <link rel="stylesheet" href="mediaquary.css">
+    <!--=============== Style Switcher ===============-->
+        <link rel="stylesheet" href="style-switcher.css">
+        <link rel="stylesheet" href="skins/color-1.css" class="alternate-style" title="color-1" disabled>
+        <link rel="stylesheet" href="skins/color-2.css" class="alternate-style" title="color-2" disabled>
+        <link rel="stylesheet" href="skins/color-3.css" class="alternate-style" title="color-3" disabled>
+        <link rel="stylesheet" href="skins/color-4.css" class="alternate-style" title="color-4" disabled>
+        <link rel="stylesheet" href="skins/color-5.css" class="alternate-style" title="color-5" disabled>
     </head>
 <body>
     <!-- Main container start -->
@@ -458,8 +465,27 @@
             </div>
         <!-- main content end -->
     </div>
-
+    <!-- Main container end -->
+    <!-- Style Switcher Start -->
+        <div class="style-switcher">
+            <div class="style-switcher-toggler s-icon">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+            <div class="day-night s-icon">
+                <i class="fas"></i> 
+            </div>
+            <h4>Theme colors</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+        </div>
+    <!-- Style Switcher Start -->
     <!-- add js file to the project -->
      <script src="script.js"></script>
+     <script src="JS/style-switcher.js"></script>
 </body>
 </html>
