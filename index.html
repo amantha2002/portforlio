@@ -427,41 +427,49 @@
                         <h3 class="contact-tittle padd-15">SEND ME AN EMAIL</h3>
                         <h4 class="contact-sub-tittle padd-15">I AM VERY RESPONSIVE TO MASSAGE</h4>
                     <!-- ================= contact-form ========== -->
+                        <!-- ===== Contact Section Start ===== -->
                         <div class="row">
-                            <div class="contact-form padd-15">
-                                <div class="row">
-                                    <div class="form-item col-6 padd-15">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="name">
-                                        </div>
-                                    </div>
-                                    <div class="form-item col-6 padd-15">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-item col-12 padd-15">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Subject">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-item col-12 padd-15">
-                                        <div class="form-group">
-                                            <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-item col-12 padd-15">
-                                        <button type="submit" class="btn" > Send Message</button>
-                                    </div>
+                        <form class="contact-form padd-15" action="https://formspree.io/f/manbwzak" method="POST">
+                            
+                            <div class="row">
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Name" required>
                                 </div>
                             </div>
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+                            </div>
+                            
+                            <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <button type="submit" class="btn">Send Message</button>
+                            </div>
+                            </div>
+
+                        </form>
                         </div>
+        <!-- ===== Contact Section End ===== -->
+
                     </div>
                 </section>
                 <!--======= contact section End =======-->
