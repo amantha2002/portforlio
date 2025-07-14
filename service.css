@@ -54,6 +54,6 @@
 }
 .service .service-item .service-item-inner p{
     font-size: 16px;
-    color: var(--bg-black-700);
+    color: var(--text-black-700);
     line-height: 25px;
 }

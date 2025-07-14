@@ -56,8 +56,7 @@
 .about .about-content .personal-info .buttons{
     margin-top: 30px;
 }
-.about .about-content .personal-info .button .btn{
-    margin-right: 15px;
+.about .about-content .personal-info .buttons .btn{
     margin-top: 10px;
 }
 .about .about-content .skills{
